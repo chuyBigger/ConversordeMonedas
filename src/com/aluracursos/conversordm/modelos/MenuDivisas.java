@@ -16,7 +16,6 @@ public class MenuDivisas {
         listaDivisasDisponibles.add(new Divisas("EUR", "Euro"));
         listaDivisasDisponibles.add(new Divisas("JPY", "Yen Japones"));
 
-
     }
 
     public void mostrarMenu() {
