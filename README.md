@@ -24,6 +24,7 @@ El proyecto fue desarrollado como parte del programa **ONE - Oracle Next Educati
 ### 👤 Usuario Estándar
 - Convertir montos entre diferentes divisas.
 - Usar las divisas activas configuradas por el administrador.
+- Obtiene un reporte de intercambios por secion en  "Json" 
 
 ### 🔐 Administrador
 - Acceso restringido por usuario y contraseña.
@@ -38,13 +39,13 @@ El proyecto fue desarrollado como parte del programa **ONE - Oracle Next Educati
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/conversor-monedas.git
+   git clone https://github.com/chuyBigger/ConversordeMonedas/tree/master
    ```
 
 2. **Abrir el proyecto en tu IDE favorito (IntelliJ, Eclipse, VSCode, etc.).**
 
 3. **Ejecutar la clase principal:**
-   - Ve a `com.aluracursos.conversordm.App` o `Iniciar.java` y ejecuta `iniciaSistema()`.
+   - Ve a `src/com/aluracursos/conversordm/` y ejecuta `el main de la clase "Principal"`.
 
 4. **Elegir modo de uso:**
    - `1` para usuario estándar.
@@ -68,8 +69,7 @@ Puedes contactarme directamente para soporte.
 
 - **Jesús Medina Casas**  
   Desarrollador en formación, participante del programa ONE - Oracle Next Education.  
-  Aguascalientes, México  
-  Email: *(opcional)*
+  Aguascalientes, México
 
 ---
 

@@ -53,7 +53,7 @@ public class Iniciar {
                     String contraseña = scanner.nextLine();
 
                     if (control.validarCredenciales(usuario, contraseña)) {
-                        menuAdmin.mostrarMenuAdministrador(); // menuAdmin ; // todo lleva la funcion de mostrar el menu del administrador
+                        menuAdmin.mostrarMenuAdministrador(); // menuAdmin ; // Listo
                     } else {
                         System.out.println("Contraseña incorrecta, Acceso denegado.");
                     }
