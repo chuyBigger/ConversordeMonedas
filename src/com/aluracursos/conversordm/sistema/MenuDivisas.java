@@ -53,5 +53,9 @@ public class MenuDivisas {
 
 
     }
+    public void agregarDivisa(Divisas nuevaDivisa){
+        listaDivisasDisponibles.add(nuevaDivisa);
+        System.out.println("Divisa agregada al menu de Divisas");
+    }
 
 }

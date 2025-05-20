@@ -53,13 +53,13 @@ public class Iniciar {
                     String contraseña = scanner.nextLine();
 
                     if (control.validarCredenciales(usuario, contraseña)) {
-                        // menuAdmin ; // todo lleva la funcion de mostrar el menu del administrador
+                        menuAdmin.mostrarMenuAdministrador(); // menuAdmin ; // todo lleva la funcion de mostrar el menu del administrador
                     } else {
                         System.out.println("Contraseña incorrecta, Acceso denegado.");
                     }
                     break;
                 case 3:
-                    System.out.println("Gracias por usar el sistema de cambio de manedas! hasta pronto...");
+                    System.out.println("Gracias por usar el sistema de cambio de monedas! hasta pronto...");
                     break;
                 default:
                     System.out.println("Opcion NO VALIDA.");
