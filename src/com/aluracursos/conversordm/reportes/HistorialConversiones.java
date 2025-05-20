@@ -1,5 +1,6 @@
-package com.aluracursos.conversordm.modelos;
+package com.aluracursos.conversordm.reportes;
 
+import com.aluracursos.conversordm.modelos.RegistroConversion;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -30,7 +31,7 @@ public class HistorialConversiones {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH-mm-ss_dd-MM-yyyy");
         String fechaHora = LocalDateTime.now().format(formatter);
 
-        String nombreArchivo = "src/Reportes/RegistrosDeCoversiones/"+fechaHora+"_registro_de_conversiones.json";
+        String nombreArchivo = "src/Reportes/RegistrosDeConversiones/"+fechaHora+"_registro_de_conversiones.json";
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 

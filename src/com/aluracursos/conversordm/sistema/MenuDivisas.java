@@ -1,4 +1,6 @@
-package com.aluracursos.conversordm.modelos;
+package com.aluracursos.conversordm.sistema;
+
+import com.aluracursos.conversordm.modelos.Divisas;
 
 import java.util.ArrayList;
 import java.util.Scanner;

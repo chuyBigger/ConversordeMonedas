@@ -1,5 +1,6 @@
-package com.aluracursos.conversordm.modelos;
+package com.aluracursos.conversordm.api;
 
+import com.aluracursos.conversordm.modelos.RegistroConversion;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 

@@ -10,9 +10,16 @@ public class ControlAcceso {
             new Administradores("Admin", "admin@email.com", "admin")
     );
 
+    public boolean existeUsuario(String correo){
+        return administradoresRegistrados.stream().anyMatch(administradores -> administradores.getCorreo().equalsIgnoreCase(correo));
+    }
+
     public boolean validarCredenciales(String correo, String contraseña) {
         return administradoresRegistrados.stream()
                 .anyMatch(admin -> admin.getCorreo().equalsIgnoreCase(correo) &&
                         admin.getContraseña().equalsIgnoreCase(contraseña));
     }
+
+
+
 }

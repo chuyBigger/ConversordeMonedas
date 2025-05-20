@@ -1,11 +1,14 @@
 package com.aluracursos.conversordm.sistema;
 
+import com.aluracursos.conversordm.api.ConversorDivisas;
 import com.aluracursos.conversordm.modelos.*;
+import com.aluracursos.conversordm.reportes.HistorialConversiones;
 
 import java.util.Scanner;
 
 public class EjecucionPrograma {
-    private void ejecutarConversor() {
+
+    public void ejecutarConversor() {
         Scanner scanner =new Scanner(System.in);
         MenuDivisas menu = new MenuDivisas();
         ConversorDivisas conversor = new ConversorDivisas();
